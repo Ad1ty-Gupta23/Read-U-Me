@@ -13,7 +13,7 @@ __pycache__/
 *.so
 
 # Models
-models/*.pkl
+
 models/*.h5
 models/*.bin
 
