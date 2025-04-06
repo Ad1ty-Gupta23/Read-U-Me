@@ -151,7 +151,7 @@ export default function JobsPage() {
         )}
         
         <div className="mt-8 text-center">
-          <Link href="/dashboard" className="text-blue-600 hover:text-blue-800 font-medium">
+          <Link href="/" className="text-blue-600 hover:text-blue-800 font-medium">
             ← Back to Dashboard
           </Link>
         </div>
