@@ -247,7 +247,7 @@ def process_resume(file_path):
 
 if __name__ == "__main__":
     # 📌 Test with Sample Resume
-    resume_path = "../resume.pdf"
+    resume_path = "resume.pdf"
     
     try:
         # Process the resume

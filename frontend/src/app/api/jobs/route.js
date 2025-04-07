@@ -15,11 +15,12 @@ export async function GET() {
       path.join(process.cwd(), 'public', 'linkedin_jobs_india.csv')
     ];
     
-    let csvPath = null;
+    let csvPath = "../data/linkedin_jobs_india.csv";
     let fileContent = null;
     
     // Find the first path that exists
     for (const testPath of possiblePaths) {
+      
       try {
         if (fs.existsSync(testPath)) {
           csvPath = testPath;
@@ -35,7 +36,7 @@ export async function GET() {
     // If no file found, return mock data
     if (!fileContent) {
       console.log('No CSV file found, returning mock data');
-      return NextResponse.json({ jobs: getMockJobData() });
+      return NextResponse.json({ jobs: [] });
     }
     
     // Parse the CSV content

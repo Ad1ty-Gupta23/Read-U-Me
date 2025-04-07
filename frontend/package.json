@@ -11,9 +11,12 @@
   "dependencies": {
     "@clerk/nextjs": "^6.12.12",
     "csv-parse": "^5.6.0",
+    "natural": "^8.0.1",
     "next": "15.2.4",
+    "pdf-parse": "^1.1.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
